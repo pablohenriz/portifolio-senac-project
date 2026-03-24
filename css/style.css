@@ -1,0 +1,98 @@
+:root {
+  --bg-dark: #1c1c1f;
+  --bg-darker: #161619;
+  --bg-light: #f0f0f0;
+  --line: #7f7f84;
+  --text: #eeeeee;
+  --text-dark: #212121;
+  --muted: #a6a6aa;
+  --accent: #40e9d5;
+  --accent-strong: #58b8ac;
+  --danger: #df6b6b;
+}
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+    list-style: none;
+}
+
+.reveral {
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+.contaim-header {
+    background-color: var(--bg-dark);
+    color: var(--bg-light);
+    display: flex;
+    justify-content:space-between;
+    align-items: center; 
+    padding: 20px 40px;
+    border: 1px solid var(--line);
+}
+
+.list-itens-nav {
+    display: flex;
+    gap: 20px;
+    list-style: none;
+    margin: 0;
+    padding: 0; 
+}
+
+.list-itens-nav a {
+    text-decoration: none;
+    color: var(--bg-light);
+}
+
+.text-header {
+    font-size: 25px; 
+}
+
+.contaim-header button {
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 10px;
+    background-color: var(--accent);
+}
+
+.btn {
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 10px;
+    background-color: var(--accent);
+}
+
+.contain-main {
+    display: flex;
+    text-align: center;
+}
+
+.box1-main {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; 
+    text-align: left; 
+    margin-left: auto; 
+    justify-content: center;
+}
+
+.contain-main h1 {
+    font-size: 100px;
+}
+
+.contain-main p {
+    font-size: 25px;
+}
+
+.contain-main button {
+    
+}
