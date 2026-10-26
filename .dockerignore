@@ -1,0 +1,6 @@
+#Conteudo que ele vai ignorar
+
+.git
+README.md
+LICENSE
+Dockerfile
